@@ -25,7 +25,7 @@
 //    [self sortArray:muarray];
     
     //快速排序
-    [self quickArray:muarray];
+//    [self quickArray:muarray];
     
     //堆排序
 //  NSArray *array1 =  [self heapSort:muarray];
