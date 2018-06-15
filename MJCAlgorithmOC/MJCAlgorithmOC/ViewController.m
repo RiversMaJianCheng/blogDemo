@@ -28,7 +28,7 @@
 //    [self quickArray:muarray];
     
     //堆排序
-//  NSArray *array1 =  [self heapSort:muarray];
+  NSArray *array1 =  [self heapSort:muarray];
 //    NSLog(@"%@",array1);
 }
 
