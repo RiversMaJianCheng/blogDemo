@@ -1,0 +1,782 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E70A7EE20EC6F02001A496D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E70A7ED20EC6F02001A496D /* AppDelegate.m */; };
+		4E70A7F120EC6F02001A496D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E70A7F020EC6F02001A496D /* ViewController.m */; };
+		4E70A7F420EC6F02001A496D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E70A7F220EC6F02001A496D /* Main.storyboard */; };
+		4E70A7F620EC6F03001A496D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E70A7F520EC6F03001A496D /* Assets.xcassets */; };
+		4E70A7F920EC6F03001A496D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E70A7F720EC6F03001A496D /* LaunchScreen.storyboard */; };
+		4E70A7FC20EC6F03001A496D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E70A7FB20EC6F03001A496D /* main.m */; };
+		4E70A80620EC6F04001A496D /* HXIWatchAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E70A80520EC6F04001A496D /* HXIWatchAppTests.m */; };
+		4E70A80B20EC6F04001A496D /* HXIWatchApp WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 4E70A80A20EC6F04001A496D /* HXIWatchApp WatchKit App.app */; };
+		4E70A81120EC6F04001A496D /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E70A80F20EC6F04001A496D /* Interface.storyboard */; };
+		4E70A81320EC6F04001A496D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E70A81220EC6F04001A496D /* Assets.xcassets */; };
+		4E70A81A20EC6F04001A496D /* HXIWatchApp WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 4E70A81920EC6F04001A496D /* HXIWatchApp WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4E70A82020EC6F04001A496D /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E70A81F20EC6F04001A496D /* InterfaceController.m */; };
+		4E70A82320EC6F04001A496D /* ExtensionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E70A82220EC6F04001A496D /* ExtensionDelegate.m */; };
+		4E70A82620EC6F04001A496D /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E70A82520EC6F04001A496D /* NotificationController.m */; };
+		4E70A82820EC6F05001A496D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E70A82720EC6F05001A496D /* Assets.xcassets */; };
+		4E70A83D20ECAE44001A496D /* HXInvestInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E70A83C20ECAE44001A496D /* HXInvestInterfaceController.m */; };
+		4E70A84020ECAE90001A496D /* HXSignInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E70A83F20ECAE90001A496D /* HXSignInterfaceController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4E70A80220EC6F04001A496D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E70A7E120EC6F02001A496D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E70A7E820EC6F02001A496D;
+			remoteInfo = HXIWatchApp;
+		};
+		4E70A80C20EC6F04001A496D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E70A7E120EC6F02001A496D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E70A80920EC6F04001A496D;
+			remoteInfo = "HXIWatchApp WatchKit App";
+		};
+		4E70A81B20EC6F04001A496D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E70A7E120EC6F02001A496D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E70A81820EC6F04001A496D;
+			remoteInfo = "HXIWatchApp WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4E70A83020EC6F05001A496D /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				4E70A81A20EC6F04001A496D /* HXIWatchApp WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E70A83420EC6F05001A496D /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				4E70A80B20EC6F04001A496D /* HXIWatchApp WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4E70A7E920EC6F02001A496D /* HXIWatchApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HXIWatchApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E70A7EC20EC6F02001A496D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4E70A7ED20EC6F02001A496D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4E70A7EF20EC6F02001A496D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4E70A7F020EC6F02001A496D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4E70A7F320EC6F02001A496D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4E70A7F520EC6F03001A496D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4E70A7F820EC6F03001A496D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4E70A7FA20EC6F03001A496D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E70A7FB20EC6F03001A496D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4E70A80120EC6F04001A496D /* HXIWatchAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HXIWatchAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E70A80520EC6F04001A496D /* HXIWatchAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HXIWatchAppTests.m; sourceTree = "<group>"; };
+		4E70A80720EC6F04001A496D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E70A80A20EC6F04001A496D /* HXIWatchApp WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HXIWatchApp WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E70A81020EC6F04001A496D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		4E70A81220EC6F04001A496D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4E70A81420EC6F04001A496D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E70A81920EC6F04001A496D /* HXIWatchApp WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "HXIWatchApp WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E70A81E20EC6F04001A496D /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		4E70A81F20EC6F04001A496D /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		4E70A82120EC6F04001A496D /* ExtensionDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExtensionDelegate.h; sourceTree = "<group>"; };
+		4E70A82220EC6F04001A496D /* ExtensionDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExtensionDelegate.m; sourceTree = "<group>"; };
+		4E70A82420EC6F04001A496D /* NotificationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationController.h; sourceTree = "<group>"; };
+		4E70A82520EC6F04001A496D /* NotificationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationController.m; sourceTree = "<group>"; };
+		4E70A82720EC6F05001A496D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4E70A82920EC6F05001A496D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E70A82A20EC6F05001A496D /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		4E70A83B20ECAE44001A496D /* HXInvestInterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HXInvestInterfaceController.h; sourceTree = "<group>"; };
+		4E70A83C20ECAE44001A496D /* HXInvestInterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HXInvestInterfaceController.m; sourceTree = "<group>"; };
+		4E70A83E20ECAE90001A496D /* HXSignInterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HXSignInterfaceController.h; sourceTree = "<group>"; };
+		4E70A83F20ECAE90001A496D /* HXSignInterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HXSignInterfaceController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4E70A7E620EC6F02001A496D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E70A7FE20EC6F04001A496D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E70A81620EC6F04001A496D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E70A7E020EC6F02001A496D = {
+			isa = PBXGroup;
+			children = (
+				4E70A7EB20EC6F02001A496D /* HXIWatchApp */,
+				4E70A80420EC6F04001A496D /* HXIWatchAppTests */,
+				4E70A80E20EC6F04001A496D /* HXIWatchApp WatchKit App */,
+				4E70A81D20EC6F04001A496D /* HXIWatchApp WatchKit Extension */,
+				4E70A7EA20EC6F02001A496D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4E70A7EA20EC6F02001A496D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E70A7E920EC6F02001A496D /* HXIWatchApp.app */,
+				4E70A80120EC6F04001A496D /* HXIWatchAppTests.xctest */,
+				4E70A80A20EC6F04001A496D /* HXIWatchApp WatchKit App.app */,
+				4E70A81920EC6F04001A496D /* HXIWatchApp WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4E70A7EB20EC6F02001A496D /* HXIWatchApp */ = {
+			isa = PBXGroup;
+			children = (
+				4E70A7EC20EC6F02001A496D /* AppDelegate.h */,
+				4E70A7ED20EC6F02001A496D /* AppDelegate.m */,
+				4E70A7EF20EC6F02001A496D /* ViewController.h */,
+				4E70A7F020EC6F02001A496D /* ViewController.m */,
+				4E70A7F220EC6F02001A496D /* Main.storyboard */,
+				4E70A7F520EC6F03001A496D /* Assets.xcassets */,
+				4E70A7F720EC6F03001A496D /* LaunchScreen.storyboard */,
+				4E70A7FA20EC6F03001A496D /* Info.plist */,
+				4E70A7FB20EC6F03001A496D /* main.m */,
+			);
+			path = HXIWatchApp;
+			sourceTree = "<group>";
+		};
+		4E70A80420EC6F04001A496D /* HXIWatchAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				4E70A80520EC6F04001A496D /* HXIWatchAppTests.m */,
+				4E70A80720EC6F04001A496D /* Info.plist */,
+			);
+			path = HXIWatchAppTests;
+			sourceTree = "<group>";
+		};
+		4E70A80E20EC6F04001A496D /* HXIWatchApp WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				4E70A80F20EC6F04001A496D /* Interface.storyboard */,
+				4E70A81220EC6F04001A496D /* Assets.xcassets */,
+				4E70A81420EC6F04001A496D /* Info.plist */,
+			);
+			path = "HXIWatchApp WatchKit App";
+			sourceTree = "<group>";
+		};
+		4E70A81D20EC6F04001A496D /* HXIWatchApp WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				4E70A81E20EC6F04001A496D /* InterfaceController.h */,
+				4E70A81F20EC6F04001A496D /* InterfaceController.m */,
+				4E70A83B20ECAE44001A496D /* HXInvestInterfaceController.h */,
+				4E70A83C20ECAE44001A496D /* HXInvestInterfaceController.m */,
+				4E70A83E20ECAE90001A496D /* HXSignInterfaceController.h */,
+				4E70A83F20ECAE90001A496D /* HXSignInterfaceController.m */,
+				4E70A82120EC6F04001A496D /* ExtensionDelegate.h */,
+				4E70A82220EC6F04001A496D /* ExtensionDelegate.m */,
+				4E70A82420EC6F04001A496D /* NotificationController.h */,
+				4E70A82520EC6F04001A496D /* NotificationController.m */,
+				4E70A82720EC6F05001A496D /* Assets.xcassets */,
+				4E70A82920EC6F05001A496D /* Info.plist */,
+				4E70A82A20EC6F05001A496D /* PushNotificationPayload.apns */,
+			);
+			path = "HXIWatchApp WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4E70A7E820EC6F02001A496D /* HXIWatchApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E70A83520EC6F05001A496D /* Build configuration list for PBXNativeTarget "HXIWatchApp" */;
+			buildPhases = (
+				4E70A7E520EC6F02001A496D /* Sources */,
+				4E70A7E620EC6F02001A496D /* Frameworks */,
+				4E70A7E720EC6F02001A496D /* Resources */,
+				4E70A83420EC6F05001A496D /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E70A80D20EC6F04001A496D /* PBXTargetDependency */,
+			);
+			name = HXIWatchApp;
+			productName = HXIWatchApp;
+			productReference = 4E70A7E920EC6F02001A496D /* HXIWatchApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4E70A80020EC6F04001A496D /* HXIWatchAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E70A83820EC6F05001A496D /* Build configuration list for PBXNativeTarget "HXIWatchAppTests" */;
+			buildPhases = (
+				4E70A7FD20EC6F04001A496D /* Sources */,
+				4E70A7FE20EC6F04001A496D /* Frameworks */,
+				4E70A7FF20EC6F04001A496D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E70A80320EC6F04001A496D /* PBXTargetDependency */,
+			);
+			name = HXIWatchAppTests;
+			productName = HXIWatchAppTests;
+			productReference = 4E70A80120EC6F04001A496D /* HXIWatchAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4E70A80920EC6F04001A496D /* HXIWatchApp WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E70A83120EC6F05001A496D /* Build configuration list for PBXNativeTarget "HXIWatchApp WatchKit App" */;
+			buildPhases = (
+				4E70A80820EC6F04001A496D /* Resources */,
+				4E70A83020EC6F05001A496D /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E70A81C20EC6F04001A496D /* PBXTargetDependency */,
+			);
+			name = "HXIWatchApp WatchKit App";
+			productName = "HXIWatchApp WatchKit App";
+			productReference = 4E70A80A20EC6F04001A496D /* HXIWatchApp WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		4E70A81820EC6F04001A496D /* HXIWatchApp WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E70A82D20EC6F05001A496D /* Build configuration list for PBXNativeTarget "HXIWatchApp WatchKit Extension" */;
+			buildPhases = (
+				4E70A81520EC6F04001A496D /* Sources */,
+				4E70A81620EC6F04001A496D /* Frameworks */,
+				4E70A81720EC6F04001A496D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HXIWatchApp WatchKit Extension";
+			productName = "HXIWatchApp WatchKit Extension";
+			productReference = 4E70A81920EC6F04001A496D /* HXIWatchApp WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4E70A7E120EC6F02001A496D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "建承 马 ";
+				TargetAttributes = {
+					4E70A7E820EC6F02001A496D = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					4E70A80020EC6F04001A496D = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 4E70A7E820EC6F02001A496D;
+					};
+					4E70A80920EC6F04001A496D = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					4E70A81820EC6F04001A496D = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = 4E70A7E420EC6F02001A496D /* Build configuration list for PBXProject "HXIWatchApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4E70A7E020EC6F02001A496D;
+			productRefGroup = 4E70A7EA20EC6F02001A496D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4E70A7E820EC6F02001A496D /* HXIWatchApp */,
+				4E70A80020EC6F04001A496D /* HXIWatchAppTests */,
+				4E70A80920EC6F04001A496D /* HXIWatchApp WatchKit App */,
+				4E70A81820EC6F04001A496D /* HXIWatchApp WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4E70A7E720EC6F02001A496D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E70A7F920EC6F03001A496D /* LaunchScreen.storyboard in Resources */,
+				4E70A7F620EC6F03001A496D /* Assets.xcassets in Resources */,
+				4E70A7F420EC6F02001A496D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E70A7FF20EC6F04001A496D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E70A80820EC6F04001A496D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E70A81320EC6F04001A496D /* Assets.xcassets in Resources */,
+				4E70A81120EC6F04001A496D /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E70A81720EC6F04001A496D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E70A82820EC6F05001A496D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E70A7E520EC6F02001A496D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E70A7F120EC6F02001A496D /* ViewController.m in Sources */,
+				4E70A7FC20EC6F03001A496D /* main.m in Sources */,
+				4E70A7EE20EC6F02001A496D /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E70A7FD20EC6F04001A496D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E70A80620EC6F04001A496D /* HXIWatchAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E70A81520EC6F04001A496D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E70A82320EC6F04001A496D /* ExtensionDelegate.m in Sources */,
+				4E70A84020ECAE90001A496D /* HXSignInterfaceController.m in Sources */,
+				4E70A82020EC6F04001A496D /* InterfaceController.m in Sources */,
+				4E70A83D20ECAE44001A496D /* HXInvestInterfaceController.m in Sources */,
+				4E70A82620EC6F04001A496D /* NotificationController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4E70A80320EC6F04001A496D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E70A7E820EC6F02001A496D /* HXIWatchApp */;
+			targetProxy = 4E70A80220EC6F04001A496D /* PBXContainerItemProxy */;
+		};
+		4E70A80D20EC6F04001A496D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E70A80920EC6F04001A496D /* HXIWatchApp WatchKit App */;
+			targetProxy = 4E70A80C20EC6F04001A496D /* PBXContainerItemProxy */;
+		};
+		4E70A81C20EC6F04001A496D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E70A81820EC6F04001A496D /* HXIWatchApp WatchKit Extension */;
+			targetProxy = 4E70A81B20EC6F04001A496D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4E70A7F220EC6F02001A496D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E70A7F320EC6F02001A496D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4E70A7F720EC6F03001A496D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E70A7F820EC6F03001A496D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		4E70A80F20EC6F04001A496D /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E70A81020EC6F04001A496D /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4E70A82B20EC6F05001A496D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4E70A82C20EC6F05001A496D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4E70A82E20EC6F05001A496D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WM5M353JJ4;
+				INFOPLIST_FILE = "HXIWatchApp WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = haiXiang.HXIWatchApp.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+			};
+			name = Debug;
+		};
+		4E70A82F20EC6F05001A496D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WM5M353JJ4;
+				INFOPLIST_FILE = "HXIWatchApp WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = haiXiang.HXIWatchApp.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+			};
+			name = Release;
+		};
+		4E70A83220EC6F05001A496D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WM5M353JJ4;
+				IBSC_MODULE = HXIWatchApp_WatchKit_Extension;
+				INFOPLIST_FILE = "HXIWatchApp WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = haiXiang.HXIWatchApp.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+			};
+			name = Debug;
+		};
+		4E70A83320EC6F05001A496D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WM5M353JJ4;
+				IBSC_MODULE = HXIWatchApp_WatchKit_Extension;
+				INFOPLIST_FILE = "HXIWatchApp WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = haiXiang.HXIWatchApp.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+			};
+			name = Release;
+		};
+		4E70A83620EC6F05001A496D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WM5M353JJ4;
+				INFOPLIST_FILE = HXIWatchApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = haiXiang.HXIWatchApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4E70A83720EC6F05001A496D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WM5M353JJ4;
+				INFOPLIST_FILE = HXIWatchApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = haiXiang.HXIWatchApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4E70A83920EC6F05001A496D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WM5M353JJ4;
+				INFOPLIST_FILE = HXIWatchAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = haiXiang.HXIWatchAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HXIWatchApp.app/HXIWatchApp";
+			};
+			name = Debug;
+		};
+		4E70A83A20EC6F05001A496D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WM5M353JJ4;
+				INFOPLIST_FILE = HXIWatchAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = haiXiang.HXIWatchAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HXIWatchApp.app/HXIWatchApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4E70A7E420EC6F02001A496D /* Build configuration list for PBXProject "HXIWatchApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E70A82B20EC6F05001A496D /* Debug */,
+				4E70A82C20EC6F05001A496D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E70A82D20EC6F05001A496D /* Build configuration list for PBXNativeTarget "HXIWatchApp WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E70A82E20EC6F05001A496D /* Debug */,
+				4E70A82F20EC6F05001A496D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E70A83120EC6F05001A496D /* Build configuration list for PBXNativeTarget "HXIWatchApp WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E70A83220EC6F05001A496D /* Debug */,
+				4E70A83320EC6F05001A496D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E70A83520EC6F05001A496D /* Build configuration list for PBXNativeTarget "HXIWatchApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E70A83620EC6F05001A496D /* Debug */,
+				4E70A83720EC6F05001A496D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E70A83820EC6F05001A496D /* Build configuration list for PBXNativeTarget "HXIWatchAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E70A83920EC6F05001A496D /* Debug */,
+				4E70A83A20EC6F05001A496D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4E70A7E120EC6F02001A496D /* Project object */;
+}
